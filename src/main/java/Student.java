@@ -11,11 +11,11 @@ public class Student {
         if (finalGrade >= 90) {
             return "A";
         } else if (finalGrade >= 80) {
-            return "C";
+            return "D";
         } else if (finalGrade >= 70) {
             return "B";
         } else if (finalGrade >= 60) {
-            return "D";
+            return "C";
         } else {
             return "F"; } }
 
